@@ -1,3 +1,5 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+Disability-Adjusted Life Years (DALYs) have become a key indicator in descriptive epidemiology. DALYs represent the number of healthy life years lost due to ill health and mortality, and allow comparing the population health impact of diseases, injuries and risk factors across time and place.
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+Although the DALY concept has been introduced nearly 30 years ago, there is still little guidance available on their calculation. This book aims to address this gap, through a combination of theoretical sections, simplified examples, and real-life experiences.
+
+This book is the result of interactions and collaborations within the European Burden of Disease Network (COST Action CA18218), supported by COST (cooperation in science and technology). Further information on the network is available via <https://www.burden-eu.net>.
