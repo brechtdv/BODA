@@ -18,4 +18,4 @@ deploy:
   github_token: $GITHUB_TOKEN
   repo: brechtdv/BODA
   target_branch: master
-  commit_message: Automatic deploy [skip ci]
+  commit_message: "Automatic deploy [skip ci]"
