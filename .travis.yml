@@ -15,6 +15,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   keep-history: true
-  github_token: $GITHUB_PAT
+  github_token: $GITHUB_TOKEN
   repo: brechtdv/BODA
   target_branch: master
