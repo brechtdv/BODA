@@ -16,7 +16,7 @@ after_success: |
     git config user.name "Travis CI"
     git config user.email "Travis CI"
     git checkout -q master
-    git add _docs/
+    git add docs/
     git commit --allow-empty -m "Automatic build [skip ci]"
     git push --quiet https://brechtdv:$GITHUB_TOKEN@github.com//BODA-master master &>/dev/null
   fi
