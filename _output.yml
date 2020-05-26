@@ -1,11 +1,22 @@
 bookdown::gitbook:
-  css: style.css
+  css: [style.css, "https://use.fontawesome.com/releases/v5.0.13/css/all.css"]
   config:
     toc:
       before: |
         <li><a href="./">Burden of Disease Assessment</a></li>
       after: |
-        <li><a href="https://www.burden-eu.net/" target="blank">European Burden of Disease Network (COST Action CA18218)</a></li>
+         <li>
+            <a href="https://www.burden-eu.net/" target="blank">
+               <img src="https://www.burden-eu.net/images/burden-eu-RGB.png" style="width:50%; padding:0px 0; display:block; margin: 0 auto;" alt="burden-eu logo">
+            </a>
+         </li>
+         <li>
+            <div style="text-align:center">
+               <a href="https://github.com/brechtdv/">
+                  <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+               </a>
+            </div>
+         </li>
     edit: https://github.com/brechtdv/BODA/edit/master/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
