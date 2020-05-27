@@ -1,3 +1,9 @@
+---
+bibliography: ["refs.bib"]
+biblio-style: "apalike"
+link-citations: true
+---
+
 # (PART\*)  Part I: Calculating DALYs {-} 
 
 # Introduction
